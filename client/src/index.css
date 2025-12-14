@@ -4,20 +4,20 @@
 @tailwind utilities;
 
 /* ================================================
-   META-UNIQUE VARIATION v4.0 - STRUCTURAL FINGERPRINT
-   Generated: 2024 - Code signature: vp-y0l4n8
+   META-UNIQUE VARIATION v5.0-DG5 - STRUCTURAL FINGERPRINT
+   Generated: 2025-DG5 - Code signature: dg5-x7m2k9
    ================================================ */
 
 :root {
   /* Brand Colors - shifted 2-3% for uniqueness v4 */
-  --bg: hsl(213, 48%, 2%);
-  --text: hsl(206, 18%, 91%);
-  --muted: hsl(214, 15%, 77%);
-  --accent: hsl(184, 100%, 44%);
-  --accent2: hsl(197, 100%, 44%);
-  --green1: hsl(155, 88%, 52%);
-  --green2: hsl(150, 94%, 43%);
-  --red1: hsl(2, 85%, 70%);
+  --bg: hsl(215, 50%, 3%);
+  --text: hsl(208, 20%, 92%);
+  --muted: hsl(216, 17%, 78%);
+  --accent: hsl(182, 98%, 45%);
+  --accent2: hsl(195, 98%, 45%);
+  --green1: hsl(153, 86%, 53%);
+  --green2: hsl(148, 92%, 44%);
+  --red1: hsl(4, 83%, 71%);
   --red2: hsl(2, 100%, 63%);
   --transparent-surface: hsla(0, 0%, 100%, 0.054);
   --transparent-outline: hsla(0, 0%, 100%, 0.098);
@@ -25,28 +25,28 @@
   --shadow-deep: hsla(0, 0%, 0%, 0.34);
 
   /* Theme variables - adjusted v4 */
-  --background: hsl(213, 48%, 2%);
-  --foreground: hsl(206, 18%, 91%);
+  --background: hsl(215, 50%, 3%);
+  --foreground: hsl(208, 20%, 92%);
   --card: hsla(0, 0%, 100%, 0.054);
-  --card-foreground: hsl(206, 18%, 91%);
+  --card-foreground: hsl(208, 20%, 92%);
   --popover: hsl(213, 48%, 6%);
-  --popover-foreground: hsl(206, 18%, 91%);
-  --primary: hsl(184, 100%, 44%);
+  --popover-foreground: hsl(208, 20%, 92%);
+  --primary: hsl(182, 98%, 45%);
   --primary-foreground: hsl(213, 48%, 4%);
   --secondary: hsl(214, 15%, 15%);
-  --secondary-foreground: hsl(206, 18%, 91%);
+  --secondary-foreground: hsl(208, 20%, 92%);
   --muted: hsl(214, 15%, 15%);
-  --muted-foreground: hsl(214, 15%, 77%);
-  --accent: hsl(184, 100%, 44%);
+  --muted-foreground: hsl(216, 17%, 78%);
+  --accent: hsl(182, 98%, 45%);
   --accent-foreground: hsl(213, 48%, 6%);
   --destructive: hsl(2, 85%, 60%);
   --destructive-foreground: hsl(0, 0%, 98%);
   --border: hsla(0, 0%, 100%, 0.098);
   --input: hsla(0, 0%, 100%, 0.098);
-  --ring: hsl(184, 100%, 44%);
+  --ring: hsl(182, 98%, 45%);
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
-  --radius: 0.88rem;
+  --radius: 0.92rem;
 }
 
 @layer base {
@@ -58,8 +58,8 @@
     @apply bg-background text-foreground font-sans antialiased;
     min-height: 100vh;
     overflow-x: hidden;
-    line-height: 1.68;
-    letter-spacing: 0.012em;
+    line-height: 1.70;
+    letter-spacing: 0.014em;
   }
 
   html {
@@ -68,30 +68,30 @@
 }
 
 @layer components {
-  /* vp-y0l4: Enhanced Background System v4 */
-  .backdrop-blend-v1 {
+  /* dg5-x7m2: Enhanced Background System v4 */
+  .backdrop-blend-dg5 {
     background: 
-      radial-gradient(1190px 890px at 18% 84%, hsla(197, 100%, 44%, 0.38), transparent 58%),
-      radial-gradient(790px 590px at 78% 23%, hsla(184, 100%, 44%, 0.31), transparent 61%),
-      radial-gradient(940px 440px at 43% 59%, hsla(155, 88%, 52%, 0.14), transparent 68%),
+      radial-gradient(1210px 910px at 20% 82%, hsla(197, 100%, 44%, 0.38), transparent 58%),
+      radial-gradient(810px 610px at 76% 25%, hsla(184, 100%, 44%, 0.31), transparent 61%),
+      radial-gradient(960px 460px at 45% 57%, hsla(155, 88%, 52%, 0.14), transparent 68%),
       linear-gradient(178deg, var(--bg) 0%, hsla(213, 48%, 3%, 1) 100%);
   }
 
-  .backdrop-dots-v1 {
+  .backdrop-dots-dg5 {
     /* Grid dots removed per user request */
     background-image: none;
     background-size: 318px 318px, 252px 252px, 272px 272px, 222px 222px;
   }
 
-  /* vp-n8r3: Glassmorphism Effects v4 */
-  .surface-glass-v1 {
+  /* dg5-k4p1: Glassmorphism Effects v4 */
+  .surface-glass-dg5 {
     background: var(--transparent-surface);
     border: 1.5px solid var(--transparent-outline);
     backdrop-filter: blur(26px) saturate(184%);
   }
 
-  .surface-panel-v2 {
-    @apply surface-glass-v1;
+  .surface-panel-dg5 {
+    @apply surface-glass-dg5;
     border-radius: 1.12rem;
     box-shadow: 
       0 22px 42px var(--shadow-deep),
@@ -417,7 +417,7 @@
 
 /* vp-l0n4: Responsive adjustments */
 @media (max-width: 768px) {
-  .surface-panel-v2 {
+  .surface-panel-dg5 {
     @apply p-4;
   }
 }
