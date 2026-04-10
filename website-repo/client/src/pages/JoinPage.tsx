@@ -4,7 +4,7 @@ import { Loader2 } from "lucide-react";
 
 export default function JoinPage() {
   const [countdown, setCountdown] = useState(3);
-  const telegramUrl = "https://t.me/+qyTeUgsGYGdhY2M8";
+  const telegramUrl = "https://t.me/+neTPujk_NvI1MWU0";
 
   useEffect(() => {
     // Track the join page visit
