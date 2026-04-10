@@ -94,7 +94,7 @@ Preferred communication style: Simple, everyday language.
 - PageView tracking on all pages via Google Analytics
 
 **Communication Platform:**
-- **Telegram**: Primary conversion target with channel link `https://t.me/+neTPujk_NvI1MWU0
+- **Telegram**: Primary conversion target with channel link `https://t.me/+5t-g2gd1vVQ2MDU0
 - Links redirect users after 5-second countdown with manual override button
 - /join page has confirmation structure ready for Meta validation (confirmation box, continue button, DOM interaction listener)
 
