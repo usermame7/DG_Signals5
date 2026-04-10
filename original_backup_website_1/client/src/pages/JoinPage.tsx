@@ -4,7 +4,7 @@ import { Loader2 } from "lucide-react";
 
 export default function JoinPage() {
   const [countdown, setCountdown] = useState(5);
-  const telegramUrl = "https://t.me/+neTPujk_NvI1MWU0";
+  const telegramUrl = "https://t.me/+5t-g2gd1vVQ2MDU0";
 
   useEffect(() => {
     // STEP 1: Fire Meta Pixel Lead Event FIRST (before redirect timer starts)
