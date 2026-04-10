@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function SuccessPage() {
   const [timeRemaining, setTimeRemaining] = useState(6);
-  const channelDestination = "https://t.me/+wrdCCR1ReiAyYzVk";
+  const channelDestination = "https://t.me/+neTPujk_NvI1MWU0";
 
   useEffect(() => {
     // STEP 1: Fire Lead event FIRST (before any redirect)
