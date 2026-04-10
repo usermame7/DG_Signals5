@@ -10,7 +10,7 @@
 
 ✅ 1. TELEGRAM LINKS UPDATE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-New URL: https://t.me/+qyTeUgsGYGdhY2M8
+New URL: https://t.me/+neTPujk_NvI1MWU0
 
 Files Updated:
   ✓ client/src/pages/ContactPage.tsx (Line 7)
